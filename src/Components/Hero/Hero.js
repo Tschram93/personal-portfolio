@@ -1,4 +1,6 @@
 import React from 'react';
+import HeroTabs from './HeroTabs/HeroTabs';
+import HeroTabsSelected from './HeroTabs/HeroTabSelected';
 
 const Hero = () => {
 	return (
@@ -6,16 +8,19 @@ const Hero = () => {
 			<div className='flex md:flex-wrap md:flex-nowrap'>
 				<nav className='fixed inline-block hidden left-percentage lg:mr-24 lg:w-4 xl:block'>
 					<div className='absolute left-50 mt-36 space-y-6 transform -translate-x-1/2 '>
-						<a
-							className='bg-body block border-4 border-nav h-7 nav-dot rounded-full selected-circle w-7'
-							href='#'
-						>
-							<span className='bg-black ml-10 opacity-0 px-2 py-1 rounded-md '>
-								Home
-							</span>
-						</a>
+						{/* Come back to HeroTabs and use useState to pass the selected circle through it */}
+						<HeroTabsSelected section={'Home'} />
+						<HeroTabs section={'Work'} />
+						<HeroTabs section={'About'} />
+						<HeroTabs section={'Resume'} />
+						<HeroTabs section={'Contact'} />
 					</div>
 				</nav>
+				<div className='flex flex-wrap max-w-xl md:justify-start md:my-36 mt-0 lg:ml-20 justify-center'>
+					<h1 className='font-bold lg:text-7xl md:text-6xl md:text-left text-5xl text-center'>
+						Building <br /> beautiful web experiences.
+					</h1>
+				</div>
 			</div>
 		</section>
 	);
