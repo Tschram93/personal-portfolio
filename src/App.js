@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
 	return (
-		<div className='App'>
+		<div className='App bg-body text-white'>
 			<Header />
 			<h1 className='text-3xl font-bold underline'>
 				Travis' Personal Portfolio

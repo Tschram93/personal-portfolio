@@ -12,7 +12,7 @@ module.exports = {
         'input-border': '#565666',
         'nav': '#404053',
         'secondary': '#9191A4',
-        'selected-text': '#A3AFF',
+        'selected-text': '#A3A3FF',
         'theme': '#3F3FFF'
       }, //
       fontFamily: {
