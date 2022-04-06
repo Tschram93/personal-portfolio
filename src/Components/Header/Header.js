@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = () => {
 	return (
@@ -7,6 +8,9 @@ const Header = () => {
 			<div className='container flex lg:px-24 items-center justify-between md:px-14 mx-auto px-8 w-full'>
 				<div className='font-bold text-lg'>Travis Schram</div>
 				<NavBar />
+			</div>
+			<div className='md:hidden'>
+				<FaBars />
 			</div>
 		</header>
 	);
