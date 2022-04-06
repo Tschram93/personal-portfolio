@@ -1,14 +1,13 @@
 import React from 'react';
 import Header from './Components/Header/Header';
+import Hero from './Components/Hero/Hero';
 import './App.css';
 
 function App() {
 	return (
-		<div className='App bg-body text-white font-poppins pb-12'>
+		<div className='App text-white font-poppins pb-12'>
 			<Header />
-			<h1 className='text-3xl font-bold underline'>
-				Travis' Personal Portfolio
-			</h1>
+			<Hero />
 		</div>
 	);
 }
