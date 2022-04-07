@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import Work from './Components/Work/Work';
@@ -12,6 +13,7 @@ function App() {
 			<Hero />
 			<Work />
 			<About />
+			<Contact />
 		</div>
 	);
 }
