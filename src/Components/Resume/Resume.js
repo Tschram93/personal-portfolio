@@ -25,9 +25,9 @@ const Resume = () => {
 
 	return (
 		<div className=''>
-			<h2 className='text-3xl' id='resume'>
+			<div className='text-3xl secondary-title' id='resume'>
 				Resume
-			</h2>
+			</div>
 			<div className='flex justify-center'>
 				<Document
 					className='mt-6'
