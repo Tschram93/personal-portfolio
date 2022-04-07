@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
+import Work from './Components/Work/Work';
 import './App.css';
 
 function App() {

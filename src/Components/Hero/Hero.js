@@ -1,6 +1,8 @@
 import React from 'react';
+import Button from '../Button/Button';
 import HeroTabs from './HeroTabs/HeroTabs';
 import HeroTabsSelected from './HeroTabs/HeroTabSelected';
+import Picture from '../../images/coding.jpeg';
 
 const Hero = () => {
 	return (
@@ -20,7 +22,9 @@ const Hero = () => {
 					<h1 className='font-bold lg:text-7xl md:text-6xl md:text-left text-5xl text-center'>
 						Building <br /> beautiful web experiences.
 					</h1>
+					<Button />
 				</div>
+				<img className='md:absolute -mt-6 md:mt-0 mt-12 right-0 w-2/5 -z-1' src={Picture} alt="laptop with computer code on screen" />
 			</div>
 		</section>
 	);
