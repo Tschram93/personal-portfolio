@@ -9,6 +9,7 @@ function App() {
 		<div className='App text-white font-poppins pb-12'>
 			<Header />
 			<Hero />
+			<Work />
 		</div>
 	);
 }
