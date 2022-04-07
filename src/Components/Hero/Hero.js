@@ -3,7 +3,7 @@ import Button from '../Button/Button';
 import HeroTabs from './HeroTabs/HeroTabs';
 import HeroTabsSelected from './HeroTabs/HeroTabSelected';
 import Picture from '../../images/coding.jpeg';
-
+// 1:26:07 of video
 const Hero = () => {
 	return (
 		<section className='container flex items-center justify-between md:px-14 mt-16 mx-auto lg:px-24 px-8 w-full'>

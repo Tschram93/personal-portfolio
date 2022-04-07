@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import * as FaIcons from 'react-icons/fa';
 
 const Header = () => {
 	return (
@@ -10,7 +10,7 @@ const Header = () => {
 				<NavBar />
 			</div>
 			<div className='md:hidden'>
-				<FaBars />
+				<FaIcons.FaBars />
 			</div>
 		</header>
 	);

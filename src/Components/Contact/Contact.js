@@ -1,11 +1,11 @@
 import React from 'react';
-import { FaEnvelope, FaSlack, FaLinkedin } from 'react-icons/fa';
+import * as FaIcons from 'react-icons/fa';
 
 const Contact = () => {
 	return (
 		<div className='container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full'>
 			<section className='w-full'>
-				<h2 id='hire' className='secondary-title'>
+				<h2 id='contact' className='secondary-title'>
 					Contact me
 				</h2>
 				<p className='section-paragraph'>
@@ -46,18 +46,18 @@ const Contact = () => {
 					<div className='mt-12'>
 						{/* <!-- Contact info --> */}
 						<p className='text-secondary'>989-284-2576</p>
-							<a
-								href='mailto:TSchram93.dev@gmail.com'
-								className='justify-center text-secondary underline mt-3 block'
-							>
-								TSchram93.dev@gmail.com
-							</a>
+						<a
+							href='mailto:TSchram93.dev@gmail.com'
+							className='justify-center text-secondary underline mt-3 block'
+						>
+							TSchram93.dev@gmail.com
+						</a>
 						<div className='flex justify-center sm:text-2xl mt-20 space-x-6 text-4xl'>
 							<a href=''>
-								<FaSlack />
+								<FaIcons.FaSlack />
 							</a>
 							<a href='https://www.linkedin.com/in/travis-schram-a37727217/'>
-								<FaLinkedin />
+								<FaIcons.FaLinkedin />
 							</a>
 						</div>
 					</div>
