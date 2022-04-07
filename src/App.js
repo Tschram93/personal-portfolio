@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './Components/About/About';
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import Work from './Components/Work/Work';
@@ -10,6 +11,7 @@ function App() {
 			<Header />
 			<Hero />
 			<Work />
+			<About />
 		</div>
 	);
 }
