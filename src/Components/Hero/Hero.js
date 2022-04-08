@@ -11,7 +11,7 @@ const Hero = () => {
 				<nav className='fixed inline-block hidden left-percentage lg:mr-24 lg:w-4 xl:block'>
 					<div className='absolute left-50 mt-36 space-y-6 transform -translate-x-1/2 '>
 						{/* Come back to HeroTabs and use useState to pass the selected circle through it */}
-						<HeroTabsSelected section={'Home'} />
+						<HeroTabs section={'Home'} />
 						<HeroTabs section={'Work'} />
 						<HeroTabs section={'About'} />
 						<HeroTabs section={'Resume'} />
