@@ -31,7 +31,6 @@ function App() {
 			<About />
 			<Resume />
 			<Contact /> 
-			{/* Contact: incorporate Emailjs */}
 		</div>
 	);
 }
