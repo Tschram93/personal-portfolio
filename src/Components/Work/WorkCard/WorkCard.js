@@ -26,13 +26,13 @@ const WorkCard = (props) => {
 				<span className='text-xl font-bold mt-2'>{props.titleText}</span>
 				<div className='flex flex-wrap md:ml-2 ml-3 mt-2'>
 					<span className='flex justify-center'>
-						<strong className='text-selected-text'>Role:</strong>
+						<strong className='text-lg text-selected-text'>Role:</strong>
 					</span>
 					<p className=' flex items-start md:my-2 my-1'>{props.role}</p>
 				</div>
 				<div className='flex flex-wrap md:ml-2 ml-3'>
 					<span className='flex justify-center'>
-						<strong className='text-selected-text'>Difficulties:</strong>
+						<strong className='text-lg text-selected-text'>Difficulties:</strong>
 					</span>
 					<p className=' flex items-start md:my-2 my-1'>
 						{props.difficultyText}
@@ -40,7 +40,7 @@ const WorkCard = (props) => {
 				</div>
 				<div className='flex flex-wrap md:ml-2 ml-3'>
 					<span className='flex justify-center'>
-						<strong className='text-selected-text'>Solution:</strong>
+						<strong className='text-lg text-selected-text'>Solution:</strong>
 					</span>
 					<p className=' flex items-start md:my-2 my-1'>{props.solutionText}</p>
 				</div>
