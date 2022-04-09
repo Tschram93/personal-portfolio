@@ -24,11 +24,11 @@ const Resume = () => {
 	}
 
 	return (
-		<div className=''>
-			<div className='text-3xl secondary-title' id='resume'>
+		<div>
+			<span className='secondary-title' id='resume'>
 				Resume
-			</div>
-			<div className='flex justify-center'>
+			</span>
+			<div className='flex justify-center text-lg'>
 				<Document
 					className='mt-6'
 					file={ResumePDF}
@@ -39,10 +39,20 @@ const Resume = () => {
 						Page {pageNumber} of {numPages}
 					</p>
 					{pageNumber > 1 && (
-						<button className='bg-secondary rounded px-3 py-2' onClick={changePageBack}>Previous Page</button>
+						<button
+							className='bg-secondary rounded px-3 py-2'
+							onClick={changePageBack}
+						>
+							Previous Page
+						</button>
 					)}
 					{pageNumber < numPages && (
-						<button className='bg-secondary rounded px-3 py-2' onClick={changePageNext}>Next Page</button>
+						<button
+							className='bg-secondary mt-2 px-3 py-2 rounded'
+							onClick={changePageNext}
+						>
+							Next Page
+						</button>
 					)}
 				</Document>
 			</div>
