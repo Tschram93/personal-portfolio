@@ -3,7 +3,7 @@ import React from 'react';
 const WorkCard = (props) => {
 	return (
 		// Whole Card
-		<div className='border border-4 flex flex-col grow-0 justify-around p-3 rounded-lg border-secondary'>
+		<div className='border border-4 flex flex-col p-3 rounded-lg border-secondary'>
 			<div className='flex w-full'>
 				{/* Top section & img  */}
 				<img
@@ -13,17 +13,17 @@ const WorkCard = (props) => {
 				/>
 			</div>
 			{/*Live page & repo button links */}
-				<div className='flex justify-around mt-2'>
-					<button className='bg-theme py-1 px-2 rounded-md'>
-						<a href={props.github}>Code</a>
-					</button>
-					<button className='bg-theme py-1 px-2 rounded-md'>
-						<a href={props.livePage}>Application</a>
-					</button>
+			<div className='flex justify-around mt-2'>
+				<button className='bg-theme py-1 px-2 rounded-md'>
+					<a href={props.github}>Code</a>
+				</button>
+				<button className='bg-theme py-1 px-2 rounded-md'>
+					<a href={props.livePage}>Application</a>
+				</button>
 			</div>
 			{/* Info section */}
 			<div className='flex flex-col border-t-2 border-nav md:mt2 mt-3'>
-				<span className='text-xl font-bold mt-2'>{props.titleText}</span>
+				<span className='text-xl font-bold mt-2 mb-2'>{props.titleText}</span>
 				<div className='flex flex-wrap md:ml-2 ml-3 mt-2'>
 					<span className='flex justify-center'>
 						<strong className='text-lg text-selected-text'>Role:</strong>

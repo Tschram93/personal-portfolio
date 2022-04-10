@@ -72,15 +72,13 @@ const Work = () => {
 						titleText={'Book Search'}
 					/>
 					<WorkCard
-						difficultyText={
-							'Description of something that was difficult to accomplish about this.'
-						}
+						difficultyText={`Getting the entered information from multiple pages to one location and display it.`}
 						github={'https://github.com/Tschram93/fitness-tracker'}
 						livePage={'https://fitness-tracker-ts93.herokuapp.com/'}
 						picture={MobileTesting}
-						role={`To create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.`}
+						role={`To create and track daily workouts. With the ability to log multiple exercises in a workout on a given day. It should also track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, it will track my distance traveled.`}
 						solutionText={
-							'I read documentation and did _____ to make this work.'
+							`I followed the mongo database guide documents step by step, adjusting the information as I progressed.`
 						}
 						titleText={'Fitness Tracker'}
 					/>
