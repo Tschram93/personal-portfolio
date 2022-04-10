@@ -60,14 +60,14 @@ const Work = () => {
 					/>
 					<WorkCard
 						difficultyText={
-							'Description of something that was difficult to accomplish about this.'
+							'The most difficult portion was to get the application to deploy successfully.'
 						}
 						github={'https://github.com/Tschram93/book-search'}
 						livePage={'https://book-search-ts93.herokuapp.com/'}
 						picture={ProgressImage}
-						role={'This is the role I filled to complete this application.'}
+						role={'Set up a server to fetch, modify and change existing data in a RESTful API. Deploy the application using MongoDB.'}
 						solutionText={
-							'I read documentation and did _____ to make this work.'
+							'I had to troubleshoot and go through a checklist of common issues. I changed permissions and settings in MongoDB and linked it to the host provider to successfully launch.'
 						}
 						titleText={'Book Search'}
 					/>
