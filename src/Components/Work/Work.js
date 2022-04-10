@@ -78,22 +78,20 @@ const Work = () => {
 						github={'https://github.com/Tschram93/fitness-tracker'}
 						livePage={'https://fitness-tracker-ts93.herokuapp.com/'}
 						picture={MobileTesting}
-						role={'This is the role I filled to complete this application.'}
+						role={`To create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.`}
 						solutionText={
 							'I read documentation and did _____ to make this work.'
 						}
 						titleText={'Fitness Tracker'}
 					/>
 					<WorkCard
-						difficultyText={
-							'Description of something that was difficult to accomplish about this.'
+						difficultyText={`Using regular expressions (regex) to correctly implement and require the correct characters.`
 						}
 						github={'https://github.com/Tschram93/password-generator'}
 						livePage={'https://tschram93.github.io/password-generator/'}
 						picture={ECommerce}
-						role={'This is the role I filled to complete this application.'}
-						solutionText={
-							'I read documentation and did _____ to make this work.'
+						role={`Create a random generated password that meets certain user selected criteria.Including: Uppercase, lowercase, special characters, and length of password`}
+						solutionText={`I used many regular expression articles to take notes and write out expressions that I desired.`
 						}
 						titleText={'Password Generator'}
 					/>

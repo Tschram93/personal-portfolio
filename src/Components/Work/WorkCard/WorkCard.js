@@ -3,7 +3,7 @@ import React from 'react';
 const WorkCard = (props) => {
 	return (
 		// Whole Card
-		<div className='border border-4 flex flex-col justify-around p-3 rounded-lg border-secondary'>
+		<div className='border border-4 flex flex-col grow-0 justify-around p-3 rounded-lg border-secondary'>
 			<div className='flex w-full'>
 				{/* Top section & img  */}
 				<img
@@ -13,13 +13,13 @@ const WorkCard = (props) => {
 				/>
 			</div>
 			{/*Live page & repo button links */}
-			<div className='flex justify-around mt-2'>
-				<button className='bg-theme py-1 px-2 rounded-md'>
-					<a href={props.github}>Code</a>
-				</button>
-				<button className='bg-theme py-1 px-2 rounded-md'>
-					<a href={props.livePage}>Application</a>
-				</button>
+				<div className='flex justify-around mt-2'>
+					<button className='bg-theme py-1 px-2 rounded-md'>
+						<a href={props.github}>Code</a>
+					</button>
+					<button className='bg-theme py-1 px-2 rounded-md'>
+						<a href={props.livePage}>Application</a>
+					</button>
 			</div>
 			{/* Info section */}
 			<div className='flex flex-col border-t-2 border-nav md:mt2 mt-3'>
@@ -32,7 +32,9 @@ const WorkCard = (props) => {
 				</div>
 				<div className='flex flex-wrap md:ml-2 ml-3'>
 					<span className='flex justify-center'>
-						<strong className='text-lg text-selected-text'>Difficulties:</strong>
+						<strong className='text-lg text-selected-text'>
+							Difficulties:
+						</strong>
 					</span>
 					<p className=' flex items-start md:my-2 my-1'>
 						{props.difficultyText}
