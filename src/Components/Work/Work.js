@@ -23,14 +23,14 @@ const Work = () => {
 				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6'>
 					<WorkCard
 						difficultyText={
-							'Description of something that was difficult to accomplish about this.'
+							'We realized that we had used a dated version of React that could potentially cause issues in the future.'
 						}
-						github={''}
-						livePage={''}
+						github={'https://github.com/MiguelGarciaCastro/MiDoggApp'}
+						livePage={'https://midoggapp.herokuapp.com/'}
 						picture={ColorPicking}
-						role={'This is the role I filled to complete this application.'}
+						role={'I was tasked with gathering reliable resources for multiple activities. I was to then turn the raw data from them into the appropriate React components.'}
 						solutionText={
-							'I read documentation and did _____ to make this work.'
+							'I referred to the official React documentation and updated a variety of things. As I was doing this, I was communicating with the other members of this app development team what I was doing, along with what had been changed before any pushes, pulls or merges.'
 						}
 						titleText={'MI Dog App'}
 					/>
@@ -38,8 +38,8 @@ const Work = () => {
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github={''}
-						livePage={''}
+						github={'https://github.com/maxaeon/project-2'}
+						livePage={'https://chicken-running.herokuapp.com/'}
 						picture={DesignImage}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
@@ -51,8 +51,8 @@ const Work = () => {
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github={''}
-						livePage={''}
+						github={'https://github.com/letqin/space-in-your-face'}
+						livePage={'https://letqin.github.io/space-in-your-face/'}
 						picture={UIDesign}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
@@ -64,8 +64,8 @@ const Work = () => {
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github={''}
-						livePage={''}
+						github={'https://github.com/Tschram93/book-search'}
+						livePage={'https://book-search-ts93.herokuapp.com/'}
 						picture={ProgressImage}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
@@ -77,8 +77,8 @@ const Work = () => {
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github={''}
-						livePage={''}
+						github={'https://github.com/Tschram93/fitness-tracker'}
+						livePage={'https://fitness-tracker-ts93.herokuapp.com/'}
 						picture={MobileTesting}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
@@ -90,8 +90,8 @@ const Work = () => {
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github={''}
-						livePage={''}
+						github={'https://github.com/Tschram93/password-generator'}
+						livePage={'https://tschram93.github.io/password-generator/'}
 						picture={ECommerce}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
