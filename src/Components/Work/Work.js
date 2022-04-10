@@ -23,41 +23,39 @@ const Work = () => {
 				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6'>
 					<WorkCard
 						difficultyText={
-							'We realized that we had used a dated version of React that could potentially cause issues in the future.'
+							'We had used a dated version of React that could potentially cause issues in the future.'
 						}
 						github={'https://github.com/MiguelGarciaCastro/MiDoggApp'}
 						livePage={'https://midoggapp.herokuapp.com/'}
 						picture={ColorPicking}
-						role={'I was tasked with gathering reliable resources for multiple activities. I was to then turn the raw data from them into the appropriate React components.'}
+						role={
+							'Gather reliable resources for multiple activities. I was to then turn the raw data from them into the appropriate React components.'
+						}
 						solutionText={
-							'I referred to the official React documentation and updated a variety of things. As I was doing this, I was communicating with the other members of this app development team what I was doing, along with what had been changed before any pushes, pulls or merges.'
+							'Used the official React documentation and updated a variety of things. I made sure to communicate with the other members of this app development team what I had done, along with what had been changed before any merges.'
 						}
 						titleText={'MI Dog App'}
 					/>
 					<WorkCard
-						difficultyText={
-							'Description of something that was difficult to accomplish about this.'
-						}
+						difficultyText={`I was unfamiliar with "Handlebars.mustache" templates and templating languages.`}
 						github={'https://github.com/maxaeon/project-2'}
 						livePage={'https://chicken-running.herokuapp.com/'}
 						picture={DesignImage}
-						role={'This is the role I filled to complete this application.'}
+						role={
+							'Front-End: I was to incorporate a weather API to display accurate weather information for locations based on text search.'
+						}
 						solutionText={
-							'I read documentation and did _____ to make this work.'
+							'I decided to create a sandbox environment in order to attempt a draft version. I followed the documentation for HandleBars.js more dynamic and responsive app development.'
 						}
 						titleText={'Garden Manager'}
 					/>
 					<WorkCard
-						difficultyText={
-							'Description of something that was difficult to accomplish about this.'
-						}
+						difficultyText={`NASA uses multiple sources, their api doesn't use a consistently universal format or fields. The GPS tracker for the I.S.S was a typical pin-point icon, changing the pointer into another icon.`}
 						github={'https://github.com/letqin/space-in-your-face'}
 						livePage={'https://letqin.github.io/space-in-your-face/'}
 						picture={UIDesign}
-						role={'This is the role I filled to complete this application.'}
-						solutionText={
-							'I read documentation and did _____ to make this work.'
-						}
+						role={`Collaborate with team members to use multiple server-side APIs into a single application`}
+						solutionText={`I had found a software development community and asked for suggestions after updating on things I had tried. I followed tutorials and adapted them to suit the project and it's needs.`}
 						titleText={'Space Tracker'}
 					/>
 					<WorkCard
