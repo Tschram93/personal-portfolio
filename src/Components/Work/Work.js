@@ -25,79 +25,79 @@ const Work = () => {
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github=''
-						livePage=''
+						github={''}
+						livePage={''}
 						picture={ColorPicking}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
 							'I read documentation and did _____ to make this work.'
 						}
-						titleText={'Application Name'}
+						titleText={'MI Dog App'}
 					/>
 					<WorkCard
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github=''
-						livePage=''
+						github={''}
+						livePage={''}
 						picture={DesignImage}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
 							'I read documentation and did _____ to make this work.'
 						}
-						titleText={'Application Name'}
+						titleText={'Garden Manager'}
 					/>
 					<WorkCard
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github=''
-						livePage=''
+						github={''}
+						livePage={''}
 						picture={UIDesign}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
 							'I read documentation and did _____ to make this work.'
 						}
-						titleText={'Application Name'}
+						titleText={'Space Tracker'}
 					/>
 					<WorkCard
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github=''
-						livePage=''
+						github={''}
+						livePage={''}
 						picture={ProgressImage}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
 							'I read documentation and did _____ to make this work.'
 						}
-						titleText={'Application Name'}
+						titleText={'Book Search'}
 					/>
 					<WorkCard
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github=''
-						livePage=''
+						github={''}
+						livePage={''}
 						picture={MobileTesting}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
 							'I read documentation and did _____ to make this work.'
 						}
-						titleText={'Application Name'}
+						titleText={'Fitness Tracker'}
 					/>
 					<WorkCard
 						difficultyText={
 							'Description of something that was difficult to accomplish about this.'
 						}
-						github=''
-						livePage=''
+						github={''}
+						livePage={''}
 						picture={ECommerce}
 						role={'This is the role I filled to complete this application.'}
 						solutionText={
 							'I read documentation and did _____ to make this work.'
 						}
-						titleText={'Application Name'}
+						titleText={'Password Generator'}
 					/>
 				</div>
 			</section>
