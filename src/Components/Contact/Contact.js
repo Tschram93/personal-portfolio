@@ -79,7 +79,7 @@ const Contact = () => {
 
 					<div className='mt-12'>
 						{/* <!-- Contact info --> */}
-						<p className='text-secondary'>989-284-2576</p>
+						<p className='text-secondary'>734-707-8209</p>
 						<a
 							href='mailto:TSchram93.dev@gmail.com'
 							className='justify-center text-secondary underline mt-3 block'
