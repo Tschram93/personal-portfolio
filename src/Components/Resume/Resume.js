@@ -30,6 +30,7 @@ const Resume = () => {
 			</span>
 			<div className='flex justify-center text-lg'>
 				<Document
+					id='resumeSizing'
 					className='mt-6'
 					file={ResumePDF}
 					onLoadSuccess={onDocumentLoadSuccess}

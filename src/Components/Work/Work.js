@@ -1,12 +1,12 @@
 import React from 'react';
-import ColorPicking from '../../images/colorpicking.avif';
-import DesignImage from '../../images/designimage.avif';
-import ECommerce from '../../images/ecommerce.avif';
-import MobileTesting from '../../images/mobiletesting.avif';
-import ProgressImage from '../../images/progressimage.avif';
-import TabletDesign from '../../images/tabletdesign.avif';
+import ColorPicking from '../../images/colorpicking.jpg';
+import DesignImage from '../../images/designimage.jpg';
+import ECommerce from '../../images/ecommerce.jpg';
+import MobileTesting from '../../images/mobiletesting.jpg';
+import ProgressImage from '../../images/progressimage.jpg';
+import TabletDesign from '../../images/tabletdesign.jpg';
 import WorkCard from './WorkCard/WorkCard';
-import UIDesign from '../../images/uidesign.avif';
+import UIDesign from '../../images/uidesign.jpg';
 
 const Work = () => {
 	return (
@@ -27,7 +27,7 @@ const Work = () => {
 						}
 						github={'https://github.com/MiguelGarciaCastro/MiDoggApp'}
 						livePage={'https://midoggapp.herokuapp.com/'}
-						picture={ColorPicking}
+						picture={TabletDesign}
 						role={
 							'Gather reliable resources for multiple activities. I was to then turn the raw data from them into the appropriate React components.'
 						}
