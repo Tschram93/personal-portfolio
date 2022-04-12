@@ -10,7 +10,6 @@ const Header = () => {
 				<NavBar />
 			</div>
 			<div className='md:hidden'>
-				<FaIcons.FaBars />
 			</div>
 		</header>
 	);

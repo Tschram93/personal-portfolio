@@ -27,7 +27,6 @@ function App() {
 			<Header />
 			<Hero />
 			<Work />
-			{/* Work: connect projects to each image */}
 			<About />
 			<Resume />
 			<Contact /> 
